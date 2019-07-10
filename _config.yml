@@ -37,8 +37,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-port: 4444
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
