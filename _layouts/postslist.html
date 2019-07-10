@@ -1,0 +1,40 @@
+---
+layout: wrapper
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl }}/css/postslist.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <div>
+    <h2 class="Title">{{ page.list_title | default: "List of Posts" }}</h2>
+    <hr />
+    {%- if site.posts.size > 0 -%} {%- for post in site.posts -%}
+    <h3>
+      <a class="PostsLink" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h3>
+    <hr />
+    {%- if site.show_excerpts -%}
+    {{ post.excerpt }}
+    {%- endif -%} {%- endfor -%} {%- endif -%}
+  </div>
+</html>

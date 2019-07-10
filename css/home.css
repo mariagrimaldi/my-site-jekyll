@@ -1,0 +1,13 @@
+.heading {
+  padding: 0.5rem;
+  font-size: 1.9rem;
+  color: black;
+  text-align: center;
+  font-family: "Comfortaa";
+  margin-top: 5.5rem;
+}
+
+.image {
+  width: 50%;
+  margin-left: 25%;
+}

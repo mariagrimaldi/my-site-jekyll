@@ -1,0 +1,33 @@
+---
+layout: wrapper
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl }}/css/posts.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="heading">{{ page.title }}</h1>
+    <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+    <div class="fancy">
+      {{ content }}
+    </div>
+  </body>
+</html>

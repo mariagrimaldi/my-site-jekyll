@@ -1,0 +1,43 @@
+.Title {
+  padding: 0.5rem;
+  font-size: 1.9rem;
+  color: black;
+  text-align: center;
+  font-family: "Comfortaa";
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.PostsLink {
+  font-size: 1rem;
+  color: black;
+  padding-bottom: 0.1rem;
+  padding-top: 0.2rem;
+  margin-right: 0.5rem;
+  border-style: double;
+  border-color: #1f2d42;
+  border-radius: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  display: inline-block;
+  margin-top: 0.1rem;
+  font-family: "Comfortaa";
+  font-weight: bold;
+}
+
+.PostsLink:hover {
+  color: lavender;
+  border-color: lavender;
+  background-color: black;
+}
+
+hr {
+  display: block;
+  padding: 0;
+  border-width: 0.5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-style: dashed;
+}
