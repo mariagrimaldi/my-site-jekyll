@@ -37,7 +37,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-# Exclude from processing.
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+# Exclude from processing
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
